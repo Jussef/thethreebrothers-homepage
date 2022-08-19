@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b95d0859.css",
+    "main.js": "/static/js/main.6643653f.js",
+    "static/media/primaria.png": "/static/media/primaria.90647e4053321511d5e2.png",
+    "static/media/kinder.png": "/static/media/kinder.8b8c28415b787907bdca.png",
+    "index.html": "/index.html",
+    "main.b95d0859.css.map": "/static/css/main.b95d0859.css.map",
+    "main.6643653f.js.map": "/static/js/main.6643653f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b95d0859.css",
+    "static/js/main.6643653f.js"
+  ]
+}
