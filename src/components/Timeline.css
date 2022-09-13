@@ -4,8 +4,11 @@ body {
   color: white;
 }
 #foto1 {
-  width: 90vw;
+  width: 50vw;
 }
 #foto2 {
-  width: 90vw;
+  width: 50vw;
+}
+#foto4 {
+  width: 60vw;
 }
