@@ -7,8 +7,8 @@ import { Timeline } from "./components/Timeline";
 function App() {
   return (
     <Router>
-      <Barra />
-      <Menu />
+      {/* <Barra /> */}
+      {/* <Menu /> */}
       <Timeline />
     </Router>
   );

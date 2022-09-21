@@ -3,12 +3,11 @@ body {
   text-align: center;
   color: white;
 }
-#foto1 {
-  width: 50vw;
+.contenedor{
+  background-image: url(../img/fondo.png);
 }
-#foto2 {
-  width: 50vw;
+.div1{
+  width: 100vw;
+  background-image: url(../img/P1/2.png);
 }
-#foto4 {
-  width: 60vw;
-}
+  
