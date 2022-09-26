@@ -15,6 +15,8 @@ function importAll(r) {
 }
 const imagesP1 = importAll(require.context("../img/P1", false, /\.(png|jpe?g|svg)$/));
 const imagesP2 = importAll(require.context("../img/P2", false, /\.(png|jpe?g|svg)$/));
+const imagesP3 = importAll(require.context("../img/P3", false, /\.(png|jpe?g|svg)$/));
+
 export class Timeline extends Component {
   render() {
     return (
@@ -29,14 +31,14 @@ export class Timeline extends Component {
             </div>
           </ScrollPage>
           <ScrollPage page={1}>
-            <Animator animation={ZoomInScrollOut}>
+            {/* <Animator animation={ZoomInScrollOut}> */}
+            <Animator animation={FadeUp}>
               <img id="imgP2_1" src={imagesP2["1.png"]} style={{ width: "50vw" }} />
             </Animator>
           </ScrollPage>
           <ScrollPage page={2}>
             <Animator animation={FadeUp}>
-              {/* <img id="foto1" src={P1img1} alt="1"/> */}
-              <img id="foto1" src={imagesP1["1.png"]} />
+              <img id="imgP2_1" src={imagesP3["1.png"]} />
             </Animator>
           </ScrollPage>
           <ScrollPage page={3}>

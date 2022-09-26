@@ -9,5 +9,6 @@ body {
 .div1{
   width: 100vw;
   background-image: url(../img/P1/2.png);
+  background-size: cover;
 }
   
